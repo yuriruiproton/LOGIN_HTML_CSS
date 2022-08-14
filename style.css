@@ -1,0 +1,88 @@
+*{
+   
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+
+body{
+    font-size: 14px;
+    background-image: url(imagens/peter-hammer-SXTj90G1f5c-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+.login-container{
+    background-color: #d7baa600;
+    background-size: cover;
+    margin: auto;
+    width: 400px;
+    margin-top: 50px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 0 15px #333;
+    border-radius: 5px;
+}
+label{
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 30px;
+}
+.fa{
+    color: black;
+}
+.fa2{
+    float: left;
+    margin-top: 12px;
+}
+.p1{
+    text-align: right;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+input{
+    width: 100%;
+    color: black;
+    margin-top: 15px;
+    padding: 10px 30px;
+    margin-top:20px;
+    box-shadow: 2px 2px 5px rgb(19, 15, 15);
+}
+input[type="button"]{
+
+    text-align: center;
+    width: 50%;
+    background-color: #3bb7c7c0;
+    margin: 15px 0px 20px 0px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+}
+.rememnber{
+   float: left;
+   margin-top: 10px;
+   margin-left: 8px;
+}
+input[type="button"]:hover{
+
+    background-color: green;
+}
+a:hover{
+    color: green;
+}
+#iconUser{
+    position: absolute;
+    
+}
+
+  
